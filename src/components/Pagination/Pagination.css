@@ -1,0 +1,26 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.item.active .link {
+  color: black;
+  background-color: #faaa20;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: none;
+  display: block;
+  padding: 7px 20px;
+  color: white;
+  background-color: #162f9f;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: #faaa20;
+  color: #fff;
+}
